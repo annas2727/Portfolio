@@ -42,7 +42,7 @@ export default function Home() {
           Core Technical Skills
         </h3>
         <div className="flex flex-wrap gap-4">
-          {["Python", "JavaScript", "TypeScript", "C++", "React", "Next.js"].map(skill => (
+          {["Python", "JavaScript", "TypeScript", "C++", "Android Studio", "React", "Next.js"].map(skill => (
             <span
               key={skill}
               className="bg-white text-purple-600 px-5 py-2 rounded-full font-medium shadow-sm"

@@ -20,25 +20,28 @@ export default function ProjectsPage() {
             title="EchoSense Audio Visualizer"
             description="An audio visualization tool designed to improve accessibility for gamers who are deaf or hard of hearing by translating directional audio cues into visual signals."
             tech={["Python", "Librosa", "PyAudio", "Machine Learning"]}
-            link="https://github.com/yourusername/echosense"
-          />
-
-          <ProjectCard
-            title="Smart Cane"
-            description="An assistive walking cane that detects obstacles and provides haptic and audio feedback to help visually impaired users navigate safely."
-            tech={["Arduino", "Ultrasonic Sensors", "3D Printing"]}
+            link="https://github.com/annas2727/wicse-shadowing"
           />
 
           <ProjectCard
             title="Plant Pop"
             description="A plant themed Android match-3 game built using OpenGL ES with custom shaders, 3D objects, and motion-based controls."
             tech={["Android", "OpenGL ES", "Java"]}
+            link="https://github.com/annas2727/PlantPop"
+          />
+
+          <ProjectCard
+            title="Galaxy Glide"
+            description="A 2D endless runner Android game where the user avoids asteroids while collecting aliens."
+            tech={["Android", "OpenGL ES", "Java"]}
+            link="https://github.com/annas2727/GalaxyGlide"
           />
 
           <ProjectCard
             title="Urmindr"
             description="A full-stack productivity assistant that integrates calendar scheduling, reminders, and AI-assisted planning."
             tech={["React", "Flask", "Firebase"]}
+            link="https://github.com/LunaVoid/UrMindr"
           />
         </div>
       </div>
