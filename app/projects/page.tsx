@@ -32,7 +32,7 @@ export default function ProjectsPage() {
 
         <ProjectCard
           title="CarryR Mesh Communication System"
-          description="A decentralized, infrastructure-independent communication system built on embedded hardware to enable resilient, self-healing networks for use in disaster response and community connectivity. Focused on multi-node communication, reliability testing, and secure data transmission without reliance on traditional internet infrastructure."
+          description="A decentralized communication system on embedded hardware enabling reliable, multi-node messaging without traditional internet infrastructure."
           tech={["C++", "Python", "Embedded Systems", "ESP32", "Networking"]}
           link="https://github.com/LunaVoid/SeniorProjectTLO"
         />
