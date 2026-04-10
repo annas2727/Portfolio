@@ -23,6 +23,13 @@ export default function ProjectsPage() {
             link="https://github.com/annas2727/wicse-shadowing"
           />
 
+      <ProjectCard
+        title="Farm Frenzy"
+        description="A Plants vs. Zombies-inspired strategy game where players defend their farm against waves of enemies using plant-based defenses, resource management, and grid-based placement mechanics."
+        tech={["Unity", "C#", "Game Development", "UI/UX"]}
+        link="https://github.com/meack73/DIG3878-Final---Farm-Frenzy"
+      />
+
         <ProjectCard
           title="CarryR Mesh Communication System"
           description="A decentralized, infrastructure-independent communication system built on embedded hardware to enable resilient, self-healing networks for use in disaster response and community connectivity. Focused on multi-node communication, reliability testing, and secure data transmission without reliance on traditional internet infrastructure."
