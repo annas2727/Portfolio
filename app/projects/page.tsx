@@ -23,6 +23,13 @@ export default function ProjectsPage() {
             link="https://github.com/annas2727/wicse-shadowing"
           />
 
+        <ProjectCard
+          title="CarryR Mesh Communication System"
+          description="A decentralized, infrastructure-independent communication system built on embedded hardware to enable resilient, self-healing networks for use in disaster response and community connectivity. Focused on multi-node communication, reliability testing, and secure data transmission without reliance on traditional internet infrastructure."
+          tech={["C++", "Python", "Embedded Systems", "ESP32", "Networking"]}
+          link="https://github.com/LunaVoid/SeniorProjectTLO"
+        />
+
           <ProjectCard
             title="Plant Pop"
             description="A plant themed Android match-3 game built using OpenGL ES with custom shaders, 3D objects, and motion-based controls."
@@ -42,6 +49,7 @@ export default function ProjectsPage() {
             description="A full-stack productivity assistant that integrates calendar scheduling, reminders, and AI-assisted planning."
             tech={["React", "Flask", "Firebase"]}
             link="https://github.com/LunaVoid/UrMindr"
+  
           />
         </div>
       </div>
