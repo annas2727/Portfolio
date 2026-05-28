@@ -3,6 +3,7 @@ interface ProjectCardProps {
   description: string;
   tech: string[];
   link?: string;
+  demolink?: string;
 }
 
 export default function ProjectCard({
@@ -10,6 +11,7 @@ export default function ProjectCard({
   description,
   tech,
   link,
+  demolink
 }: ProjectCardProps) {
   return (
     <div className="p-6 rounded-3xl border-4 border-purple-300 bg-white shadow-md">
@@ -31,15 +33,27 @@ export default function ProjectCard({
           </span>
         ))}
       </div>
+      <div className="mt-4 flex gap-6">
       {link && (
         <a
           href={link}
           target="_blank"
-          className="text-purple-600 font-semibold hover:underline"
-        >
-          View Project →
+          rel="noopener noreferrer"
+          className="text-purple-600 font-semibold hover:underline cursor-pointer">
+          GitHub
         </a>
       )}
+
+      {demolink && (
+        <a
+          href={demolink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-purple-600 font-semibold hover:underline cursor-pointer"        >
+          Watch Demo
+        </a>
+      )}
+    </div>
     </div>
   );
 }

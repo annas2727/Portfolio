@@ -21,6 +21,7 @@ export default function ProjectsPage() {
             description="An audio visualization tool designed to improve accessibility for gamers who are deaf or hard of hearing by translating directional audio cues into visual signals."
             tech={["Python", "Librosa", "PyAudio", "Machine Learning"]}
             link="https://github.com/annas2727/wicse-shadowing"
+            demolink = "https://www.youtube.com/watch?v=paUiYsk3-lE&t=2s"
           />
 
       <ProjectCard
@@ -28,6 +29,7 @@ export default function ProjectsPage() {
         description="A Plants vs. Zombies-inspired strategy game where players defend their farm against waves of enemies using plant-based defenses, resource management, and grid-based placement mechanics."
         tech={["Unity", "C#", "Game Development", "UI/UX"]}
         link="https://github.com/meack73/DIG3878-Final---Farm-Frenzy"
+        demolink="https://drive.google.com/file/d/1Z7YgY2cd837Dxwa71-0VBYB0w2ZqCOe2/view"
       />
 
         <ProjectCard
@@ -35,6 +37,7 @@ export default function ProjectsPage() {
           description="A decentralized communication system on embedded hardware enabling reliable, multi-node messaging without traditional internet infrastructure."
           tech={["C++", "Python", "Embedded Systems", "ESP32", "Networking"]}
           link="https://github.com/LunaVoid/SeniorProjectTLO"
+          demolink="https://www.youtube.com/watch?v=mtzTzJl5uF4"
         />
 
           <ProjectCard
@@ -42,6 +45,7 @@ export default function ProjectsPage() {
             description="A plant themed Android match-3 game built using OpenGL ES with custom shaders, 3D objects, and motion-based controls."
             tech={["Android", "OpenGL ES", "Java"]}
             link="https://github.com/annas2727/PlantPop"
+            demolink="https://drive.google.com/file/d/1lSSrcUQ0eclHaIkSw3rdfiJpcsb5OY08/view?usp=sharing"
           />
 
           <ProjectCard
@@ -49,6 +53,7 @@ export default function ProjectsPage() {
             description="A 2D endless runner Android game where the user avoids asteroids while collecting aliens."
             tech={["Android", "OpenGL ES", "Java"]}
             link="https://github.com/annas2727/GalaxyGlide"
+            demolink="https://drive.google.com/file/d/1H-EzYKwyGhf9WJNSMVaC18XUHnDnYBke/view?usp=sharing"
           />
 
           <ProjectCard
@@ -56,6 +61,7 @@ export default function ProjectsPage() {
             description="A full-stack productivity assistant that integrates calendar scheduling, reminders, and AI-assisted planning."
             tech={["React", "Flask", "Firebase"]}
             link="https://github.com/LunaVoid/UrMindr"
+            demolink="https://devpost.com/software/urmindr"
   
           />
         </div>
